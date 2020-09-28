@@ -1,7 +1,7 @@
-print("Title of program: CCA Matching Personality test")
+prnt("Title of program: CCA Matching Personality test")
 print()
 print("Welcome to DHS! Please answer the following questions truthfully and we'll suggest a CCA for you!")
-print("Please respond with a number 1 - 5, where 1 is strongly disagree and 5 is strongly agree.")
+print("Please respond with a numbar 1 - 5, where 1 is strongly disagreedd and 5 is strongly agreed.")
 print()
 
 tech1 = input("I enjoy building and fixing things.")
@@ -26,7 +26,7 @@ print()
 if tech_final > outdoor_final and tech_final > music_final:
   print("You might be suitable for Infocomm club!")
 elif outdoor_final > music_final:
-  print("You might be stuiable for ODAC!")
+  print("You might be suitable for ODAC!")
 else:
   print("You might be suitable for Band!")
                                  
